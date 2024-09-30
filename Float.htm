@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            width: 100%;
+        }
+        .column {
+            width: 33.33%;
+            float: left;
+            padding: 10px;
+            background-color: lightgrey;
+            text-align: center;
+        }
+        footer {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <div class="container">
+        <div class="column">Column</div>
+        <div class="column">Column</div>
+        <div class="column">Column</div>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+</body>
+</html>
